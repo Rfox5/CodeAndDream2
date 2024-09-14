@@ -25,3 +25,67 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Ignorar archivos comunes a todos los proyectos Flutter
+
+# Flutter-specific
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
+.idea/
+.vscode/
+
+# Android-specific
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+**/android/key.properties
+
+# iOS-specific
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Runner.xcodeproj/project.pbxproj
+**/ios/Runner.xcodeproj/xcuserdata/
+**/ios/Runner.xcworkspace/contents.xcworkspacedata
+**/ios/Runner.xcworkspace/xcshareddata/
+**/ios/Runner/xcuserdata/
+**/xcuserdata/
+**/DerivedData/
+
+# Web-specific
+**/web/.dart_tool/
+**/web/.packages
+**/web/.flutter-plugins
+**/web/.flutter-plugins-dependencies
+**/web/build/
+
+# Logs
+*.log
+pubspec.lock
+
+# Otros archivos generados
+**/*.iml
+**/*.hive
+**/*.lock
+**/*.log
+**/*.pyc
+**/*.tmp
+**/*.bak
+**/*.swp
+**/*.DS_Store
+**/*.thumbs.db
+
+# Cobertura de tests
+coverage/
+
+# Archivos de configuración de IDEs
+**/.idea/
+**/.vscode/
